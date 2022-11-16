@@ -117,17 +117,17 @@
  * └────┴────┴────┴────────────────────────┴────┴────┴────┴────┘
  */
 // Row 1
-#define DE_SUP2 RALT(DE_2)    // ²
-#define DE_SUP3 RALT(DE_3)    // ³
-#define DE_LCBR RALT(DE_7)    // {
-#define DE_LBRC RALT(DE_8)    // [
-#define DE_RBRC RALT(DE_9)    // ]
-#define DE_RCBR RALT(DE_0)    // }
-#define DE_BSLS RALT(DE_SS)   // (backslash)
+#define DE_SUP2 RA(DE_2)    // ²
+#define DE_SUP3 RA(DE_3)    // ³
+#define DE_LCBR RA(DE_7)    // {
+#define DE_LBRC RA(DE_8)    // [
+#define DE_RBRC RA(DE_9)    // ]
+#define DE_RCBR RA(DE_0)    // }
+#define DE_BSLS RA(DE_SS)   // (backslash)
 // Row 2
-#define DE_AT   RALT(DE_Q)    // @
-#define DE_EURO RALT(DE_E)    // €
-#define DE_TILD RALT(DE_PLUS) // ~
+#define DE_AT   RA(DE_Q)    // @
+#define DE_EURO RA(DE_E)    // €
+#define DE_TILD RA(DE_PLUS) // ~
 // Row 4
-#define DE_PIPE RALT(DE_LABK) // |
-#define DE_MICR RALT(DE_M)    // µ
+#define DE_PIPE RA(DE_LABK) // |
+#define DE_MICR RA(DE_M)    // µ
