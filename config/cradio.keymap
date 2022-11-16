@@ -113,7 +113,7 @@
     // Misc layer containing bluetooth controls
     misc_layer {
       bindings = <
-        &trans &trans         &kp DE_COLN   &kp ERC       &trans          &trans          &trans          &bt BT_CLR      &trans          &kp DEL
+        &trans &trans         &kp DE_COLN   &kp ESC       &trans          &trans          &trans          &bt BT_CLR      &trans          &kp DEL
         &trans &kp DE_PERC    &kp DE_SLSH   &kp RET       &trans          &trans          &trans          &trans          &trans          &trans
         &trans &trans         &trans        &kp DE_EXLM   &trans          &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4
                                             &trans        &trans          &none           &trans
