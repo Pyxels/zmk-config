@@ -14,57 +14,57 @@
  * └────┴────┴────┴────────────────────────┴────┴────┴────┴────┘
  */
 // Row 1
-#define DE_CIRC KC_GRV  // ^ (dead)
-#define DE_1    KC_1    // 1
-#define DE_2    KC_2    // 2
-#define DE_3    KC_3    // 3
-#define DE_4    KC_4    // 4
-#define DE_5    KC_5    // 5
-#define DE_6    KC_6    // 6
-#define DE_7    KC_7    // 7
-#define DE_8    KC_8    // 8
-#define DE_9    KC_9    // 9
-#define DE_0    KC_0    // 0
-#define DE_SS   KC_MINS // ß
-#define DE_ACUT KC_EQL  // ´ (dead)
+#define DE_CIRC CARET  // ^ (dead)
+#define DE_1    N1    // 1
+#define DE_2    N2    // 2
+#define DE_3    N3    // 3
+#define DE_4    N4    // 4
+#define DE_5    N5    // 5
+#define DE_6    N6    // 6
+#define DE_7    N7    // 7
+#define DE_8    N8    // 8
+#define DE_9    N9    // 9
+#define DE_0    N0    // 0
+#define DE_SS   MINUS // ß
+#define DE_ACUT EQUAL  // ´ (dead)
 // Row 2
-#define DE_Q    KC_Q    // Q
-#define DE_W    KC_W    // W
-#define DE_E    KC_E    // E
-#define DE_R    KC_R    // R
-#define DE_T    KC_T    // T
-#define DE_Z    KC_Y    // Z
-#define DE_U    KC_U    // U
-#define DE_I    KC_I    // I
-#define DE_O    KC_O    // O
-#define DE_P    KC_P    // P
-#define DE_UDIA KC_LBRC // Ü
-#define DE_PLUS KC_RBRC // +
+#define DE_Q    Q    // Q
+#define DE_W    W    // W
+#define DE_E    E    // E
+#define DE_R    R    // R
+#define DE_T    T    // T
+#define DE_Z    Y    // Z
+#define DE_U    U    // U
+#define DE_I    I    // I
+#define DE_O    O    // O
+#define DE_P    P    // P
+#define DE_UDIA LBKT // Ü
+#define DE_PLUS RBKT // +
 // Row 3
-#define DE_A    KC_A    // A
-#define DE_S    KC_S    // S
-#define DE_D    KC_D    // D
-#define DE_F    KC_F    // F
-#define DE_G    KC_G    // G
-#define DE_H    KC_H    // H
-#define DE_J    KC_J    // J
-#define DE_K    KC_K    // K
-#define DE_L    KC_L    // L
-#define DE_ODIA KC_SCLN // Ö
-#define DE_ADIA KC_QUOT // Ä
-#define DE_HASH KC_NUHS // #
+#define DE_A    A    // A
+#define DE_S    S    // S
+#define DE_D    D    // D
+#define DE_F    F    // F
+#define DE_G    G    // G
+#define DE_H    H    // H
+#define DE_J    J    // J
+#define DE_K    K    // K
+#define DE_L    L    // L
+#define DE_ODIA SEMI // Ö
+#define DE_ADIA SQT  // Ä
+#define DE_HASH NUHS // #
 // Row 4
-#define DE_LABK KC_NUBS // <
-#define DE_Y    KC_Z    // Y
-#define DE_X    KC_X    // X
-#define DE_C    KC_C    // C
-#define DE_V    KC_V    // V
-#define DE_B    KC_B    // B
-#define DE_N    KC_N    // N
-#define DE_M    KC_M    // M
-#define DE_COMM KC_COMM // ,
-#define DE_DOT  KC_DOT  // .
-#define DE_MINS KC_SLSH // -
+#define DE_LABK NUBS // <
+#define DE_Y    Z    // Y
+#define DE_X    X    // X
+#define DE_C    C    // C
+#define DE_V    V    // V
+#define DE_B    B    // B
+#define DE_N    N    // N
+#define DE_M    M    // M
+#define DE_COMM COMMA // ,
+#define DE_DOT  DOT  // .
+#define DE_MINS SLASH // -
 
 /* Shifted symbols
  * ┌───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───────┐
