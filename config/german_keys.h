@@ -14,7 +14,7 @@
  * └────┴────┴────┴────────────────────────┴────┴────┴────┴────┘
  */
 // Row 1
-#define DE_CIRC CARET  // ^ (dead)
+#define DE_CIRC GRAVE  // ^ (dead)
 #define DE_1    N1    // 1
 #define DE_2    N2    // 2
 #define DE_3    N3    // 3
