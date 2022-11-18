@@ -43,7 +43,7 @@
     // Default layer using Colemak-DH
     default_layer {
       bindings = <
-        &kp Q           &kp W         &kp F         &kp P         &kp B               &kp J           &kp L         &kp U               &kp Y               &kp DE_SLSH
+        &kp Q           &kp W         &kp F         &kp P         &kp B               &kp J           &kp L         &kp U               &kp DE_Y               &kp DE_SLSH
         &mt LSHIFT A    &lt FUNC R    &lt MOUSE S   &lt SYM_R T   &lt UMLAUT G        &kp M           &lt SYM_L N   &lt ARROWS E        &lt NUMS I          &mt LSHIFT O
         &kp DE_Z        &mt LCTRL X   &mt LALT C    &kp D         &kp V               &kp K           &kp H         &mt LALT DE_COMM    &mt LCTRL DE_DOT    &kp DE_MINS
                                                     &kp LGUI      &kp SPC             &lt MISC BSPC   &kp TAB
