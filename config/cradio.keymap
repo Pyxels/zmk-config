@@ -19,11 +19,22 @@
 #define NUMS 6
 #define MISC 7
 #define UMLAUT 8
+#define BT 9
 
 
 &mt {
   flavor = "tap-preferred";
   tapping_term_ms = <200>;
+};
+
+/ {
+  conditional_layers {
+    compatible = "zmk,conditional-layers";
+    tri_layer {
+      if-layers = <MISC UMLAUT>;
+        then-layer = <BT>;
+    };
+  };
 };
 
 / {
@@ -110,12 +121,12 @@
       >;
     };
 
-    // Misc layer containing bluetooth controls
+    // Misc layer
     misc_layer {
       bindings = <
-        &trans &trans         &kp DE_COLN   &kp ESC       &trans          &trans          &trans          &bt BT_CLR      &trans          &kp DEL
+        &trans &trans         &kp DE_COLN   &kp ESC       &trans          &trans          &trans          &trans          &trans          &kp DEL
         &trans &kp DE_PERC    &kp DE_SLSH   &kp RET       &trans          &trans          &trans          &trans          &trans          &trans
-        &trans &trans         &trans        &kp DE_EXLM   &trans          &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4
+        &trans &trans         &trans        &kp DE_EXLM   &trans          &trans          &trans          &trans          &trans          &trans
                                             &trans        &trans          &none           &trans
       >;
     };
@@ -127,6 +138,16 @@
         &trans &trans &none  &trans &none           &trans &kp DE_ADIA    &kp DE_UDIA   &kp DE_SS   &kp DE_ODIA
         &trans &trans &trans &trans &trans          &trans &trans         &trans        &trans      &trans
                              &trans &trans          &trans &trans
+      >;
+    };
+
+    // Bluetooth layer
+    bt_layer {
+      bindings = <
+        &trans &trans &trans &trans &trans          &trans          &trans          &bt BT_CLR      &trans          &kp DEL
+        &trans &trans &trans &trans &none           &trans          &trans          &trans          &trans          &trans
+        &trans &trans &trans &trans &trans          &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4
+                             &trans &trans          &none           &trans
       >;
     };
   };
