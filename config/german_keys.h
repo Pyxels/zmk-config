@@ -14,19 +14,19 @@
  * └────┴────┴────┴────────────────────────┴────┴────┴────┴────┘
  */
 // Row 1
-#define DE_CIRC GRAVE  // ^ (dead)
-#define DE_1    N1    // 1
-#define DE_2    N2    // 2
-#define DE_3    N3    // 3
-#define DE_4    N4    // 4
-#define DE_5    N5    // 5
-#define DE_6    N6    // 6
-#define DE_7    N7    // 7
-#define DE_8    N8    // 8
-#define DE_9    N9    // 9
-#define DE_0    N0    // 0
-#define DE_SS   MINUS // ß
-#define DE_ACUT EQUAL  // ´ (dead)
+#define DE_CIRC GRAV   // ^ (dead)
+#define DE_1    NUM_1  // 1
+#define DE_2    NUM_2  // 2
+#define DE_3    NUM_3  // 3
+#define DE_4    NUM_4  // 4
+#define DE_5    NUM_5  // 5
+#define DE_6    NUM_6  // 6
+#define DE_7    NUM_7  // 7
+#define DE_8    NUM_8  // 8
+#define DE_9    NUM_9  // 9
+#define DE_0    NUM_0  // 0
+#define DE_SS   MINUS  // ß
+#define DE_ACUT EQL    // ´ (dead)
 // Row 2
 #define DE_Q    Q    // Q
 #define DE_W    W    // W
@@ -50,20 +50,20 @@
 #define DE_J    J    // J
 #define DE_K    K    // K
 #define DE_L    L    // L
-#define DE_ODIA SEMI // Ö
-#define DE_ADIA SQT  // Ä
+#define DE_ODIA SCLN // Ö
+#define DE_ADIA QUOT // Ä
 #define DE_HASH NUHS // #
 // Row 4
-#define DE_LABK NUBS // <
-#define DE_Y    Z    // Y
-#define DE_X    X    // X
-#define DE_C    C    // C
-#define DE_V    V    // V
-#define DE_B    B    // B
-#define DE_N    N    // N
-#define DE_M    M    // M
-#define DE_COMM COMMA // ,
-#define DE_DOT  DOT  // .
+#define DE_LABK NUBS  // <
+#define DE_Y    Z     // Y
+#define DE_X    X     // X
+#define DE_C    C     // C
+#define DE_V    V     // V
+#define DE_B    B     // B
+#define DE_N    N     // N
+#define DE_M    M     // M
+#define DE_COMM CMMA  // ,
+#define DE_DOT  DOT   // .
 #define DE_MINS SLASH // -
 
 /* Shifted symbols
